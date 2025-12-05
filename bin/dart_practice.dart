@@ -1,0 +1,44 @@
+import 'dart:io';
+
+void main()
+{
+  print("Enter your marks: ");
+
+  int marks = int.parse(stdin.readLineSync()!);
+
+  print("Your Result: ");
+
+  switch(marks){
+      case >= 80 && <= 100:
+      print('A+');
+      break;
+
+      case >=70 && <= 80:
+      print('A');
+      break;
+
+      case >=60 && <= 70:
+      print('A-');
+      break;
+
+      case >=50 && <= 60:
+      print('B');
+      break;
+
+      case >=40 && <= 50:
+      print('C');
+      break;
+
+      case >=33 && <= 40:
+      print('D');
+      break;
+
+      case >=0 && <= 33:
+      print('F');
+      break;
+
+    default:
+      print("Result is Not Found");
+  }
+
+}
