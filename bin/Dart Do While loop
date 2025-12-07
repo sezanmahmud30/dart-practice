@@ -1,0 +1,15 @@
+import 'dart:io';
+
+void main()
+{
+  print("Enter the Number : ");
+  int x = int.parse(stdin.readLineSync()!);
+
+    var i = 1;
+
+    do{
+      var a = x*i;
+      print("$x X $i = $a");
+      i = i+1;
+    }while(i<=10);
+}
