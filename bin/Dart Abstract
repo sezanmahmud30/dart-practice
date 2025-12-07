@@ -1,0 +1,22 @@
+abstract class Father{
+
+  BabarTaka(){
+    print("Total Amount = 80000000");
+  }
+}
+
+// import 'Father.dart';
+
+class Son extends Father{
+  BabarTaka(){
+    print("Total Amount = 50000000");
+  }
+}
+
+// import 'Son.dart';
+
+void main(){
+
+  var SonObj = Son();
+  SonObj.BabarTaka();
+}
