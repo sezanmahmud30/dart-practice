@@ -1,0 +1,16 @@
+  class Father{
+    BabarTaka(){
+
+      print("Total Amount = 30000000 Taka");
+    }
+  }
+  class Son extends Father{
+
+  }
+  void main(){
+    var SonObj = Son();
+    SonObj.BabarTaka();
+
+    var FatherObj = Father();
+    FatherObj.BabarTaka();
+  }
