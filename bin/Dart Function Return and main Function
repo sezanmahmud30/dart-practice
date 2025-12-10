@@ -1,0 +1,9 @@
+
+ addTwoNum(var x,double y){
+  return(x + y);
+ }
+
+ void main(){
+  var result = addTwoNum(6,7.60)+5;
+  print(result);
+ }
