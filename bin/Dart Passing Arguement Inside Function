@@ -1,0 +1,10 @@
+
+ addTwoNum(var x,var y){
+  print(x + y);
+ }
+
+ void main(){
+  addTwoNum(41,6);
+  addTwoNum(5,16);
+  addTwoNum(10,36);
+ }
