@@ -1,0 +1,21 @@
+
+void main()
+{
+  var productList = [
+    {'name':'soap','price': 100},
+    {'name':'sugar','price' : 80},
+    {'name':'milk','price' : 60},
+    {'name':'cake','price' : 250},
+    {'name':'fish','price' : 320},
+  ];
+
+  for(var OneProduct in productList){
+    print(OneProduct['name']);
+
+    var item = 'Product price is = ${OneProduct['price']} taka only';
+    print(item);
+
+  }
+
+}
+
