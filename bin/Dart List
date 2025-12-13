@@ -1,0 +1,8 @@
+void main(){
+
+  var city=['Dhaka','Rangpur','Sylhet','Barisal','Khulna','Chittagong','Mymensing'];
+
+  print(city);
+  
+  print(city[4]);
+}
