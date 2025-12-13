@@ -1,0 +1,10 @@
+
+void main(){
+
+  var num= [1,2,3,4,5];
+
+  num[3] = 400;
+  num[4] = 500;
+  
+  print(num);
+}
