@@ -1,0 +1,12 @@
+
+void main(){
+
+  var city = ['Dhaka','Sylhet','Rangpur','Barisal','Chittagong'];
+  print(city);
+
+  city.add('Mymensing');
+  city.add('Rajshahi');
+
+  print(city);
+
+}
