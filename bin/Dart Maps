@@ -1,0 +1,13 @@
+void main(){
+
+  var person={
+    'name':'Sezan Mahmud',
+    'age':23,
+    'city':'Dhaka',
+    'height':'5 Feet 9 Inch'
+  };
+
+  print(person);
+
+  print(person['name']);
+}
