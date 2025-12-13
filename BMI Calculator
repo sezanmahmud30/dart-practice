@@ -1,0 +1,32 @@
+import 'dart:io';
+
+void main(){
+
+  print("BMI Calculator - ");
+
+  //Input weight
+  stdout.write("Enter your weight (kg) : ");
+  double weight = double.parse(stdin.readLineSync()!);
+
+  //Input height
+  stdout.write("Enter your height (meters) : ");
+  double height = double.parse(stdin.readLineSync()!);
+
+  //Calculate BMI
+  double bmi = weight/(height * height);
+  print("\n Your BMI is : ${bmi.toStringAsFixed(2)}");
+
+  //BMI Category
+  if(bmi < 18.5){
+    print("Category: Underweight");
+  }
+  else if(bmi >= 18.5 && bmi < 24.9){
+    print("Category: Normal weight");
+  }
+  else if(bmi >= 25 && bmi < 29.9){
+    print("Category: Overweight");
+  }
+  else {
+    print("Category: Obese");
+  }
+}
