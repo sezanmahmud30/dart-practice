@@ -1,0 +1,19 @@
+import 'dart:io';
+
+void main(){
+  
+  stdout.write("Enter how many Fibonacci numbers you want: ");
+  int n = int.parse(stdin.readLineSync()!);
+
+  int a = 0;
+  int b = 1;
+
+  print("Fibonacci Series:");
+  for(int i = 1;i <= n;i++){
+    print(a);
+
+    int next = a + b;
+    a = b;
+    b = next;
+  }
+}
