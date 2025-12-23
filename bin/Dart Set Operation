@@ -1,0 +1,13 @@
+import 'dart:io';
+
+void main() {
+  Set<int> A = {1, 2, 3, 4, 7};
+  Set<int> B = {3, 4, 5, 6};
+
+    print("Find Difference Number ${A.difference(B)}");
+
+    print("Find Union Number ${A.union(B)}");
+
+    print("Find Intersection Number ${A.intersection(B)}");
+
+}
