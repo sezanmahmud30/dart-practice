@@ -1,0 +1,9 @@
+import 'dart:io';
+
+void main() {
+  List<String> cities = ["Dhaka","Chittagong","Khulna","Borisal","Rangpur","Mymensing","Rajshahi"];
+
+  List<String> citiesReversed = cities.reversed.toList();
+  print(citiesReversed);
+
+}
