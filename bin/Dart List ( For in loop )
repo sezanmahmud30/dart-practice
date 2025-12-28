@@ -1,0 +1,9 @@
+import 'dart:io';
+
+void main() {
+  List cities = ["Dhaka","Khulna","Chittagong","Barisal","Rajshahi",100,32,54,8.70];
+
+  for(var item in cities){
+    print(item);
+  }
+}
