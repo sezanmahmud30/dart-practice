@@ -1,0 +1,9 @@
+import 'dart:io';
+
+void main() {
+  Set<String> cities = {"Dhaka","Khulna","Chittagong","Barisal","Rajshahi"};
+
+  for(String item in cities){
+    print(item);
+  }
+}
