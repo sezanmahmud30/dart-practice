@@ -1,0 +1,9 @@
+
+void main(){
+
+  List<String> cities = ["Dhaka","Khulna","Chittagong","Dhaka","Cumilla","Dhaka"];
+
+  List NewList = cities.toSet().toList();
+  print(NewList);
+
+}
